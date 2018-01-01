@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.androidui.SloopActivity">
+
+    <Button
+        android:id="@+id/btn_sloop_base"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="坐标,弧度,颜色"
+        android:layout_gravity="center_horizontal"/>
+
+    <Button
+        android:id="@+id/btn_sloop_step"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="分类流程"
+        android:layout_gravity="center_horizontal"/>
+
+    <Button
+        android:id="@+id/btn_sloop_draw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="绘制"
+        android:layout_gravity="center_horizontal"/>
+
+    <Button
+        android:id="@+id/btn_sloop_canvas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="画布"
+        android:layout_gravity="center_horizontal"/>
+
+    <Button
+        android:id="@+id/btn_sloop_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="文本"
+        android:layout_gravity="center_horizontal"/>
+
+    <Button
+        android:id="@+id/btn_sloop_path_base"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="路径基础"
+        android:layout_gravity="center_horizontal"/>
+
+    <Button
+        android:id="@+id/btn_sloop_path_pb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="路径-贝塞尔曲线"
+        android:layout_gravity="center_horizontal"/>
+
+    <Button
+        android:id="@+id/btn_sloop_path_over"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="路径完结"
+        android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>
