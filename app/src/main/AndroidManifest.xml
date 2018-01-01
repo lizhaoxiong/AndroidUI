@@ -17,7 +17,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".SloopActivity" />
-        <activity android:name=".SloopBaseActivity"></activity>
+        <activity android:name=".SloopBaseActivity" />
+        <activity android:name=".SloopProcessActivity"></activity>
     </application>
 
 </manifest>
